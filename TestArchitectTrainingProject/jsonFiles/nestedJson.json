@@ -1,0 +1,40 @@
+{
+	"data": [
+		{
+			"courseName": "selenium",
+			"purchaseDate": "2021-08-22",
+			"amount": 120,
+			"location": "Africa"
+		},
+		{
+			"courseName": "Protractor",
+			"purchaseDate": "2021-08-22",
+			"amount": 45,
+			"location": "Africa"
+		},
+		{
+			"courseName": "Appium",
+			"purchaseDate": "2021-08-22",
+			"amount": 99,
+			"location": "Asia"
+		},
+		{
+			"courseName": "WebServices",
+			"purchaseDate": "2021-08-22",
+			"amount": 21,
+			"location": "Asia"
+		},
+		{
+			"courseName": "Jmeter",
+			"purchaseDate": "2021-08-22",
+			"amount": 76,
+			"location": "Asia"
+		},
+		{
+			"courseName": "Cypress",
+			"purchaseDate": "2021-08-22",
+			"amount": 88,
+			"location": "USA"
+		}
+	]
+}
