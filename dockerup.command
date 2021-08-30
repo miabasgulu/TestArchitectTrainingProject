@@ -1,2 +1,2 @@
 #!/bin/bash
-docker-compose -f docker-compose.yaml up >>output.txt
+docker-compose -f https://github.com/mabasgulu1982/TestArchitectTrainingProject/blob/master/docker-compose.yaml up >>https://github.com/mabasgulu1982/TestArchitectTrainingProject/blob/master/output.txt
