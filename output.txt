@@ -342,3 +342,108 @@ chrome_1      | 23:55:56.453 INFO [SelfRegisteringRemote.registerToHub] - Regist
 selenium-hub  | 23:55:56.471 INFO [DefaultGridRegistry.add] - Registered a node http://172.21.0.3:5555
 chrome_1      | 23:55:56.472 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
 Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, chrome_1, firefox_1
+chrome_1      | 2021-08-29 23:57:58,468 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome_1      | 2021-08-29 23:57:58,472 INFO supervisord started with pid 8
+firefox_1     | 2021-08-29 23:57:58,499 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox_1     | 2021-08-29 23:57:58,501 INFO supervisord started with pid 10
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, chrome_1, firefox_1
+firefox_1     | 2021-08-29 23:58:47,348 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox_1     | 2021-08-29 23:58:47,351 INFO supervisord started with pid 9
+selenium-hub  | 2021-08-29 23:58:47,397 INFO spawned: 'selenium-hub' with pid 10
+selenium-hub  | Starting Selenium Hub with configuration:
+selenium-hub  | 2021-08-29 23:58:47,406 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | {
+selenium-hub  |   "host": "0.0.0.0",
+selenium-hub  |   "port": 4444,
+selenium-hub  |   "role": "hub",
+selenium-hub  |   "maxSession": 5,
+selenium-hub  |   "newSessionWaitTimeout": -1,
+selenium-hub  |   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+selenium-hub  |   "throwOnCapabilityNotPresent": true,
+selenium-hub  |   "jettyMaxThreads": -1,
+selenium-hub  |   "cleanUpCycle": 5000,
+selenium-hub  |   "browserTimeout": 0,
+selenium-hub  |   "timeout": 1800,
+selenium-hub  |   "debug": false
+selenium-hub  | }
+chrome_1      | 2021-08-29 23:58:47,442 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome_1      | 2021-08-29 23:58:47,445 INFO supervisord started with pid 8
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, chrome_1, firefox_1
+firefox_1     | 2021-08-29 23:59:50,334 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox_1     | 2021-08-29 23:59:50,337 INFO supervisord started with pid 10
+chrome_1      | 2021-08-29 23:59:50,364 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome_1      | 2021-08-29 23:59:50,367 INFO supervisord started with pid 10
+selenium-hub  | 23:59:50.718 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, chrome_1, firefox_1
+chrome_1      | 2021-08-30 00:05:01,208 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome_1      | 2021-08-30 00:05:01,212 INFO supervisord started with pid 9
+selenium-hub  | 2021-08-30 00:05:01,227 INFO spawned: 'selenium-hub' with pid 11
+selenium-hub  | Starting Selenium Hub with configuration:
+selenium-hub  | 2021-08-30 00:05:01,244 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | {
+selenium-hub  |   "host": "0.0.0.0",
+selenium-hub  |   "port": 4444,
+selenium-hub  |   "role": "hub",
+selenium-hub  |   "maxSession": 5,
+selenium-hub  |   "newSessionWaitTimeout": -1,
+selenium-hub  |   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+selenium-hub  |   "throwOnCapabilityNotPresent": true,
+selenium-hub  |   "jettyMaxThreads": -1,
+selenium-hub  |   "cleanUpCycle": 5000,
+selenium-hub  |   "browserTimeout": 0,
+selenium-hub  |   "timeout": 1800,
+selenium-hub  |   "debug": false
+selenium-hub  | }
+firefox_1     | 2021-08-30 00:05:01,303 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox_1     | 2021-08-30 00:05:01,306 INFO supervisord started with pid 8
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, chrome_1, firefox_1
+chrome_1      | 2021-08-30 00:07:33,409 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome_1      | 2021-08-30 00:07:33,412 INFO supervisord started with pid 11
+firefox_1     | 2021-08-30 00:07:33,473 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox_1     | 2021-08-30 00:07:33,475 INFO supervisord started with pid 9
+selenium-hub  | 00:07:33.818 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+selenium-hub  | 00:07:34.045 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+chrome_1      | 2021-08-30 00:07:34,415 INFO spawned: 'xvfb' with pid 13
+chrome_1      | 2021-08-30 00:07:34,417 INFO spawned: 'selenium-node' with pid 14
+chrome_1      | E: [pulseaudio] main.c: Daemon startup failed.
+chrome_1      | 2021-08-30 00:07:34,473 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome_1      | 2021-08-30 00:07:34,474 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox_1     | 2021-08-30 00:07:34,477 INFO spawned: 'xvfb' with pid 11
+firefox_1     | 2021-08-30 00:07:34,479 INFO spawned: 'selenium-node' with pid 12
+chrome_1      | No PulseAudio daemon running, or not running as session daemon.
+chrome_1      | No PulseAudio daemon running, or not running as session daemon.
+chrome_1      | No PulseAudio daemon running, or not running as session daemon.
+chrome_1      | Connecting to the Hub using the host selenium-hub and port 4444
+selenium-hub  | 2021-08-30 00:07:34.608:INFO::main: Logging initialized @1350ms to org.seleniumhq.jetty9.util.log.StdErrLog
+firefox_1     | Connecting to the Hub using the host selenium-hub and port 4444
+firefox_1     | 2021-08-30 00:07:34,876 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox_1     | 2021-08-30 00:07:34,876 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | 00:07:34.918 INFO [Hub.start] - Selenium Grid hub is up and running
+selenium-hub  | 00:07:34.922 INFO [Hub.start] - Nodes should register to http://172.21.0.2:4444/grid/register/
+selenium-hub  | 00:07:34.923 INFO [Hub.start] - Clients should connect to http://172.21.0.2:4444/wd/hub
+chrome_1      | 00:07:34.974 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+chrome_1      | 00:07:35.180 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+firefox_1     | 00:07:35.324 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+chrome_1      | 2021-08-30 00:07:35.343:INFO::main: Logging initialized @838ms to org.seleniumhq.jetty9.util.log.StdErrLog
+firefox_1     | 00:07:35.527 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+firefox_1     | 2021-08-30 00:07:35.699:INFO::main: Logging initialized @812ms to org.seleniumhq.jetty9.util.log.StdErrLog
+chrome_1      | 00:07:35.766 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+chrome_1      | 00:07:35.905 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+chrome_1      | 00:07:35.905 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+chrome_1      | 00:07:35.958 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+firefox_1     | 00:07:36.123 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+firefox_1     | 00:07:36.306 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+firefox_1     | 00:07:36.306 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+firefox_1     | 00:07:36.383 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+chrome_1      | 00:07:36.529 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+selenium-hub  | 00:07:36.591 INFO [DefaultGridRegistry.add] - Registered a node http://172.21.0.3:5555
+chrome_1      | 00:07:36.591 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+firefox_1     | 00:07:36.775 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+selenium-hub  | 00:07:36.794 INFO [DefaultGridRegistry.add] - Registered a node http://172.21.0.4:5555
+firefox_1     | 00:07:36.795 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+Gracefully stopping... (press Ctrl+C again to force)
