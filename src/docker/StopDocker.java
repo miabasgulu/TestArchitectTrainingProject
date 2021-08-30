@@ -21,7 +21,7 @@ public class StopDocker {
 		Calendar calendar = Calendar.getInstance();
 		calendar.add(Calendar.SECOND, 45);
 		long stopTime = calendar.getTimeInMillis();
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 
 		while (System.currentTimeMillis() < stopTime) {
 			if (dockerFlag) {
@@ -41,6 +41,6 @@ public class StopDocker {
 			bReader.close();
 		}
 		Assert.assertTrue(dockerFlag);
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 	}
 }

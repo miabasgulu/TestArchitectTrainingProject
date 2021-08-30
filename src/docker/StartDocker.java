@@ -21,7 +21,7 @@ public class StartDocker {
 		Calendar calendar = Calendar.getInstance();
 		calendar.add(Calendar.SECOND, 45);
 		long stopTime = calendar.getTimeInMillis();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 		while (System.currentTimeMillis() < stopTime) {
 			if (dockerFlag) {
