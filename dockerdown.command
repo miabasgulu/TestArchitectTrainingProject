@@ -1,2 +1,2 @@
 #!/bin/bash
-docker-compose -f mkdr/docker-compose.yaml down
+docker-compose -f -d mkdr/docker-compose.yaml down
