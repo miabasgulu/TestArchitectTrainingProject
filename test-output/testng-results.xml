@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-29T20:47:27 EDT" name="Suite" finished-at="2021-08-29T20:47:32 EDT" duration-ms="5104">
+  <suite started-at="2021-09-02T23:22:19 EDT" name="Suite" finished-at="2021-09-02T23:22:24 EDT" duration-ms="5107">
     <groups>
     </groups>
-    <test started-at="2021-08-29T20:47:27 EDT" name="Test" finished-at="2021-08-29T20:47:32 EDT" duration-ms="5104">
+    <test started-at="2021-09-02T23:22:19 EDT" name="Test" finished-at="2021-09-02T23:22:24 EDT" duration-ms="5107">
       <class name="docker.ChromeTest1">
-        <test-method is-config="true" signature="startDockerAndScale()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-08-29T20:47:27 EDT" name="startDockerAndScale" finished-at="2021-08-29T20:47:32 EDT" duration-ms="5050" status="FAIL">
+        <test-method is-config="true" signature="startDockerAndScale()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-09-02T23:22:19 EDT" name="startDockerAndScale" finished-at="2021-09-02T23:22:24 EDT" duration-ms="5047" status="FAIL">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
@@ -51,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDockerAndScale -->
-        <test-method signature="test1()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-08-29T20:47:32 EDT" name="test1" finished-at="2021-08-29T20:47:32 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="test1()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-09-02T23:22:24 EDT" name="test1" finished-at="2021-09-02T23:22:24 EDT" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
@@ -95,13 +95,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="stopDockerAndDeleteFile()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-08-29T20:47:32 EDT" name="stopDockerAndDeleteFile" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1630284452989" status="SKIP">
+        <test-method is-config="true" signature="stopDockerAndDeleteFile()[pri:0, instance:docker.ChromeTest1@79ad8b2f]" started-at="2021-09-02T23:22:24 EDT" name="stopDockerAndDeleteFile" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1630639344408" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDockerAndDeleteFile -->
       </class> <!-- docker.ChromeTest1 -->
       <class name="docker.ChromeTest5">
-        <test-method signature="test5()[pri:0, instance:docker.ChromeTest5@4c15e7fd]" started-at="2021-08-29T20:47:32 EDT" name="test5" finished-at="2021-08-29T20:47:32 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="test5()[pri:0, instance:docker.ChromeTest5@4c15e7fd]" started-at="2021-09-02T23:22:24 EDT" name="test5" finished-at="2021-09-02T23:22:24 EDT" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- test5 -->
       </class> <!-- docker.ChromeTest5 -->
       <class name="docker.ChromeTest4">
-        <test-method signature="test4()[pri:0, instance:docker.ChromeTest4@2133814f]" started-at="2021-08-29T20:47:32 EDT" name="test4" finished-at="2021-08-29T20:47:32 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="test4()[pri:0, instance:docker.ChromeTest4@2133814f]" started-at="2021-09-02T23:22:24 EDT" name="test4" finished-at="2021-09-02T23:22:24 EDT" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
@@ -193,7 +193,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- test4 -->
       </class> <!-- docker.ChromeTest4 -->
       <class name="docker.ChromeTest3">
-        <test-method signature="test3()[pri:0, instance:docker.ChromeTest3@70be0a2b]" started-at="2021-08-29T20:47:32 EDT" name="test3" finished-at="2021-08-29T20:47:32 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="test3()[pri:0, instance:docker.ChromeTest3@70be0a2b]" started-at="2021-09-02T23:22:24 EDT" name="test3" finished-at="2021-09-02T23:22:24 EDT" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- test3 -->
       </class> <!-- docker.ChromeTest3 -->
       <class name="docker.ChromeTest2">
-        <test-method signature="test2()[pri:0, instance:docker.ChromeTest2@f8c1ddd]" started-at="2021-08-29T20:47:32 EDT" name="test2" finished-at="2021-08-29T20:47:32 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="test2()[pri:0, instance:docker.ChromeTest2@f8c1ddd]" started-at="2021-09-02T23:22:24 EDT" name="test2" finished-at="2021-09-02T23:22:24 EDT" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[output.txt (No such file or directory)]]>
